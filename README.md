@@ -37,7 +37,26 @@ This repository hosts the price catalog the extension uses.
 
 ## Privacy
 
-The extension does not collect personal data nor analytics.
+TCG MSRP does not collect, store or share any personal data.
+
+- **What it reads:** product titles and prices on Amazon.com search result pages, to find matching
+  products in the price catalog. This happens entirely in your browser; nothing from the page is
+  sent anywhere. The extension doesn't run on any other pages or sites.
+- **What it downloads:** once a day, it downloads `catalog.json` from this repository. That is its
+  only network request. Like any web request, it is visible to GitHub (see
+  [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)).
+  No information about you or your browsing is included.
+- **What it stores:** the price catalog, in your browser's local extension storage. Uninstalling the
+  extension removes it.
+- **What it doesn't do:** no accounts, cookies, analytics, tracking, or ads. No data
+  is sold or shared with anyone.
+
+Permissions: `storage` (to keep the price catalog) and `alarms` (for the daily catalog check), plus
+access to Amazon.com search pages to show prices.
+
+Questions or concerns: [open an issue](https://github.com/cloudkj/tcg-msrp/issues).
+
+_Last updated: September 2026._
 
 ## Disclaimer
 
