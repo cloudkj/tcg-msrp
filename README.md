@@ -2,7 +2,7 @@
 
 # TCG MSRP
 
-A browser extension that shows the official MSRP next to trading card game products online 
+A browser extension that shows the official MSRP next to trading card game products in online 
 retailer search results, so you can see at a glance how a listing compares to retail price.
 
 Currently supports:
